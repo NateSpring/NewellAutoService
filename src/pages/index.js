@@ -6,7 +6,7 @@ import Waypoint from 'react-waypoint'
 import Layout from '../components/layout'
 import Header from '../components/Header'
 import Nav from '../components/Nav'
-import pic01 from '../assets/images/pic01.jpg'
+import pic01 from '../assets/images/background.jpg'
 
 class Index extends React.Component {
   constructor(props) {
@@ -16,7 +16,7 @@ class Index extends React.Component {
     }
   }
 
-  _handleWaypointEnter= () => {
+  _handleWaypointEnter = () => {
     this.setState(() => ({ stickyNav: false }));
   }
 
@@ -45,11 +45,11 @@ class Index extends React.Component {
             <div className="spotlight">
               <div className="content">
                 <header className="major">
-                  <h2>Newell Auto Service</h2>
+                  <h2>About Us</h2>
                 </header>
-                <p>We are the valley's leading mobile automotive service.</p>
+                <p>We are the valley's leading mobile automotive service. With years of experience in automotive repair and an excellent track-record of customer service. Let us be your next mobile auto repair service!<br /> Currently we service Modesto, Ca and surrounding areas.</p>
                 <ul className="actions">
-                  <li><a src="https://www.facebook.com/Newell-Auto-Service-629173440930110/" className="button">Find Us on FaceBook</a></li>
+                  <li><a href="https://www.facebook.com/Newell-Auto-Service-629173440930110/" className="button">Find Us on FaceBook</a></li>
                 </ul>
               </div>
               <span className="image"><img src={pic01} alt="" /></span>
@@ -58,23 +58,23 @@ class Index extends React.Component {
 
           <section id="first" className="main special">
             <header className="major">
-              <h2>Magna veroeros</h2>
+              <h2>Contact Us</h2>
             </header>
             <ul className="features">
               <li>
-                <span className="icon major style1 fa-code"></span>
-                <h3>Ipsum consequat</h3>
+                <span className="icon major style1 fa-phone"></span>
+                <h3>Phone</h3>
                 <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
               </li>
               <li>
                 <span className="icon major style3 fa-copy"></span>
-                <h3>Amed sed feugiat</h3>
+                <h3>Email</h3>
                 <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
               </li>
               <li>
-                <span className="icon major style5 fa-diamond"></span>
-                <h3>Dolor nullam</h3>
-                <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                <span className="icon major style5 fa-address-card"></span>
+                <h3>Online Appointment</h3>
+                <p>Provide us with the Year, Make, Model of your vehicle</p>
               </li>
             </ul>
             <footer className="major">
@@ -88,7 +88,7 @@ class Index extends React.Component {
             <header className="major">
               <h2>Ipsum consequat</h2>
               <p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-              posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
+                posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
             </header>
             <ul className="statistics">
               <li className="style1">
@@ -124,7 +124,7 @@ class Index extends React.Component {
             <header className="major">
               <h2>Congue imperdiet</h2>
               <p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-              posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
+                posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
             </header>
             <footer className="major">
               <ul className="actions">
