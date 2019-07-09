@@ -26,7 +26,6 @@
 	body, .body {
 		background-color: _palette(bg);
 		@include vendor('background-image', (
-			'url("../images/pic02.jpg" norepeat)',
 			'linear-gradient(45deg, black, black)',
 		));
 
